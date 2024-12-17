@@ -1,0 +1,51 @@
+/* Navbar styles */
+.navbar-container {
+    padding: 20px;
+    background-color: #f7fafc; /* Equivalent to Chakra's gray.50 */
+}
+
+.navbar-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-logo {
+    margin-left: 0; /* Adjust if needed for spacing */
+    /* font-size: 1.5rem; */
+    /* font-weight: 300; Thin font */
+    color: #805ad5; /* Equivalent to Chakra's purple.500 */
+    /* font-family: 'Pacifico', cursive; */
+}
+
+.navbar-links {
+    display: flex;
+    gap: 40px; /* Equivalent to Chakra's spacing={10} */
+    margin-right: 0;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.navbar-link {
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+}
+
+.navbar-button {
+    background-color: black; /* Equivalent to Chakra's purple */
+    color: #fff;
+    margin-top: -5px;
+    font-weight: 500;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+
